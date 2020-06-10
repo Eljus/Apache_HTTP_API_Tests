@@ -1,4 +1,4 @@
-Welcome to https://github.com/Eljus/Apache_HTTP_API_Tests/issuesthe Apache_HTTP_API_Tests wiki!
+Welcome!
 
 This project is written as a demo project to show Apache HTTP Components usage knowledge, how to create wrappers around it, and how to write API tests.
 
