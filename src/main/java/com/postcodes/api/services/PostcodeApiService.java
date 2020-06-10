@@ -1,12 +1,10 @@
-package api.services;
+package com.postcodes.api.services;
 
 
-import api.assertions.AssertableResponse;
+import com.postcodes.api.assertions.AssertableResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.CloseableHttpClient;
 
 import java.io.IOException;
 

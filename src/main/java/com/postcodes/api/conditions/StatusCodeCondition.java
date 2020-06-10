@@ -1,4 +1,4 @@
-package api.conditions;
+package com.postcodes.api.conditions;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.http.client.methods.CloseableHttpResponse;

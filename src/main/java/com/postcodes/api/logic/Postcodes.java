@@ -1,4 +1,4 @@
-package api.logic;
+package com.postcodes.api.logic;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

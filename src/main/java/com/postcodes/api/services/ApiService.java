@@ -1,6 +1,6 @@
-package api.services;
+package com.postcodes.api.services;
 
-import api.ProjectConfig;
+import com.postcodes.api.ProjectConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.http.Header;

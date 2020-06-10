@@ -1,6 +1,6 @@
-package api.conditions;
+package com.postcodes.api.conditions;
 
-import api.logic.BaseLogic;
+import com.postcodes.api.logic.BaseLogic;
 import lombok.RequiredArgsConstructor;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.json.JSONObject;

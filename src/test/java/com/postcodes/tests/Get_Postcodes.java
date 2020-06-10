@@ -1,9 +1,9 @@
 package com.postcodes.tests;
 
-import api.ProjectConfig;
-import api.conditions.Conditions;
-import api.logic.BaseLogic;
-import api.services.PostcodeApiService;
+import com.postcodes.api.ProjectConfig;
+import com.postcodes.api.conditions.Conditions;
+import com.postcodes.api.logic.BaseLogic;
+import com.postcodes.api.services.PostcodeApiService;
 import org.aeonbits.owner.ConfigFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

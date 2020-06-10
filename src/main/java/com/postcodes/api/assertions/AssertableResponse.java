@@ -1,6 +1,6 @@
-package api.assertions;
+package com.postcodes.api.assertions;
 
-import api.conditions.Condition;
+import com.postcodes.api.conditions.Condition;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.CloseableHttpResponse;

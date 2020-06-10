@@ -1,4 +1,4 @@
-package api;
+package com.postcodes.api;
 
 import org.aeonbits.owner.Config;
 
