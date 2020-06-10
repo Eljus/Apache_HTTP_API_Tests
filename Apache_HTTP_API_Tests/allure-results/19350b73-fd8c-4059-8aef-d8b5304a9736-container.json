@@ -1,0 +1,1 @@
+{"uuid":"19350b73-fd8c-4059-8aef-d8b5304a9736","name":"com.postcodes.tests.Get_Postcodes","children":["26f83bb6-216b-4bc5-9963-09edaa18bdea"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1591792005737,"stop":1591792005784}],"afters":[],"links":[],"start":1591792005668,"stop":1591792007812}

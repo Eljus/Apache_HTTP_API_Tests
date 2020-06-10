@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="90" passed="90" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-10T20:15:58Z" name="Testing" finished-at="2020-06-10T20:16:06Z" duration-ms="8929">
+    <groups>
+    </groups>
+    <test started-at="2020-06-10T20:15:58Z" name="Testing" finished-at="2020-06-10T20:16:06Z" duration-ms="8929">
+      <class name="com.postcodes.tests.Post_Postcodes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:58Z" name="setUp" finished-at="2020-06-10T20:15:58Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateAllSubmittedPostcodePostcodesCCG()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:58Z" name="validateAllSubmittedPostcodePostcodesCCG" finished-at="2020-06-10T20:15:58Z" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllSubmittedPostcodePostcodesCCG -->
+        <test-method signature="validateCodeStatusCode200WhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateCodeStatusCode200WhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode" finished-at="2020-06-10T20:15:59Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCodeStatusCode200WhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode -->
+        <test-method signature="validateCodeStatusCode400WhenJsonEmptyString()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateCodeStatusCode400WhenJsonEmptyString" finished-at="2020-06-10T20:15:59Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCodeStatusCode400WhenJsonEmptyString -->
+        <test-method signature="validateCodeStatusCode400WhenJsonInvalidCharacter()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateCodeStatusCode400WhenJsonInvalidCharacter" finished-at="2020-06-10T20:15:59Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCodeStatusCode400WhenJsonInvalidCharacter -->
+        <test-method signature="validateEmptyPostcodeResultOnNoPostcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateEmptyPostcodeResultOnNoPostcodes" finished-at="2020-06-10T20:15:59Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmptyPostcodeResultOnNoPostcodes -->
+        <test-method signature="validateErrorMessageOnExceedingAllowedRange101Postcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateErrorMessageOnExceedingAllowedRange101Postcodes" finished-at="2020-06-10T20:15:59Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageOnExceedingAllowedRange101Postcodes -->
+        <test-method signature="validateErrorMessageWhenJsonEmptyString()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateErrorMessageWhenJsonEmptyString" finished-at="2020-06-10T20:15:59Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorMessageWhenJsonEmptyString -->
+        <test-method signature="validateFirstSubmittedPostcodeCCG()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateFirstSubmittedPostcodeCCG" finished-at="2020-06-10T20:15:59Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFirstSubmittedPostcodeCCG -->
+        <test-method signature="validateHeaderConnection()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateHeaderConnection" finished-at="2020-06-10T20:15:59Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderConnection -->
+        <test-method signature="validateHeaderContentType()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateHeaderContentType" finished-at="2020-06-10T20:15:59Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderContentType -->
+        <test-method signature="validateHeaderGnu()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateHeaderGnu" finished-at="2020-06-10T20:15:59Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderGnu -->
+        <test-method signature="validatePostcodeOfOneSubmittedPostcode()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validatePostcodeOfOneSubmittedPostcode" finished-at="2020-06-10T20:15:59Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeOfOneSubmittedPostcode -->
+        <test-method signature="validatePostcodesThatAreNotCorruptedWhereFirstIsInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validatePostcodesThatAreNotCorruptedWhereFirstIsInvalid" finished-at="2020-06-10T20:15:59Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodesThatAreNotCorruptedWhereFirstIsInvalid -->
+        <test-method signature="validatePostcodesThatAreNotCorruptedWhereLastIsInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validatePostcodesThatAreNotCorruptedWhereLastIsInvalid" finished-at="2020-06-10T20:15:59Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodesThatAreNotCorruptedWhereLastIsInvalid -->
+        <test-method signature="validatePostcodesThatAreNotCorruptedWhereSecondIsInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validatePostcodesThatAreNotCorruptedWhereSecondIsInvalid" finished-at="2020-06-10T20:15:59Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodesThatAreNotCorruptedWhereSecondIsInvalid -->
+        <test-method signature="validateQueryHasInsertedInvalidPostcodeWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:15:59Z" name="validateQueryHasInsertedInvalidPostcodeWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode" finished-at="2020-06-10T20:16:00Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateQueryHasInsertedInvalidPostcodeWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode -->
+        <test-method signature="validateResultAgainstCustomJson()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultAgainstCustomJson" finished-at="2020-06-10T20:16:00Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultAgainstCustomJson -->
+        <test-method signature="validateResultErrorIfFirstPostcodesInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultErrorIfFirstPostcodesInvalid" finished-at="2020-06-10T20:16:00Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultErrorIfFirstPostcodesInvalid -->
+        <test-method signature="validateResultErrorIfLastPostcodesInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultErrorIfLastPostcodesInvalid" finished-at="2020-06-10T20:16:00Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultErrorIfLastPostcodesInvalid -->
+        <test-method signature="validateResultErrorIfMiddlePostcodesInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultErrorIfMiddlePostcodesInvalid" finished-at="2020-06-10T20:16:00Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultErrorIfMiddlePostcodesInvalid -->
+        <test-method signature="validateResultNullWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultNullWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode" finished-at="2020-06-10T20:16:00Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenPostcodeHasInvalidCharacterBetweenOutcodeAndIncode -->
+        <test-method signature="validateResultQueryIfFirstPostcodesInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultQueryIfFirstPostcodesInvalid" finished-at="2020-06-10T20:16:00Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultQueryIfFirstPostcodesInvalid -->
+        <test-method signature="validateResultQueryIfLastPostcodesInvalid()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultQueryIfLastPostcodesInvalid" finished-at="2020-06-10T20:16:00Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultQueryIfLastPostcodesInvalid -->
+        <test-method signature="validateResultQueryIfMiddlePostcodesMissing()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateResultQueryIfMiddlePostcodesMissing" finished-at="2020-06-10T20:16:00Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultQueryIfMiddlePostcodesMissing -->
+        <test-method signature="validateStatusCode200On100Postcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:00Z" name="validateStatusCode200On100Postcodes" finished-at="2020-06-10T20:16:01Z" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode200On100Postcodes -->
+        <test-method signature="validateStatusCode200OnEmptyJson()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:01Z" name="validateStatusCode200OnEmptyJson" finished-at="2020-06-10T20:16:01Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode200OnEmptyJson -->
+        <test-method signature="validateStatusCodeErrorOnExceedingAllowedRange101Postcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:01Z" name="validateStatusCodeErrorOnExceedingAllowedRange101Postcodes" finished-at="2020-06-10T20:16:01Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeErrorOnExceedingAllowedRange101Postcodes -->
+        <test-method signature="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithMaximumAmountOfPostcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:01Z" name="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithMaximumAmountOfPostcodes" finished-at="2020-06-10T20:16:01Z" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeSpentOnFullResponseNotExceedingBasicTimeWithMaximumAmountOfPostcodes -->
+        <test-method signature="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithOnePostcodes()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:01Z" name="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithOnePostcodes" finished-at="2020-06-10T20:16:01Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeSpentOnFullResponseNotExceedingBasicTimeWithOnePostcodes -->
+        <test-method signature="validateWholeRequestAnswersAtOnceForCV13GA()[pri:0, instance:com.postcodes.tests.Post_Postcodes@47a7a101]" started-at="2020-06-10T20:16:01Z" name="validateWholeRequestAnswersAtOnceForCV13GA" finished-at="2020-06-10T20:16:01Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWholeRequestAnswersAtOnceForCV13GA -->
+      </class> <!-- com.postcodes.tests.Post_Postcodes -->
+      <class name="com.postcodes.tests.Get_Postcodes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="setUp" finished-at="2020-06-10T20:16:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateBodyFieldCogIdCodeForStandardPostcode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateBodyFieldCogIdCodeForStandardPostcode" finished-at="2020-06-10T20:16:02Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBodyFieldCogIdCodeForStandardPostcode -->
+        <test-method signature="validateResultNullWhenIncodeFirstCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenIncodeFirstCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenIncodeFirstCharacterIsMissing -->
+        <test-method signature="validateResultNullWhenIncodeIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenIncodeIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenIncodeIsMissing -->
+        <test-method signature="validateResultNullWhenIncodeSecondCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenIncodeSecondCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenIncodeSecondCharacterIsMissing -->
+        <test-method signature="validateResultNullWhenIncodeThirdCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenIncodeThirdCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenIncodeThirdCharacterIsMissing -->
+        <test-method signature="validateResultNullWhenOutcodeFirstCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenOutcodeFirstCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenOutcodeFirstCharacterIsMissing -->
+        <test-method signature="validateResultNullWhenOutcodeIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenOutcodeIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenOutcodeIsMissing -->
+        <test-method signature="validateResultNullWhenOutcodeSecondCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenOutcodeSecondCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenOutcodeSecondCharacterIsMissing -->
+        <test-method signature="validateResultNullWhenOutcodeThirdCharacterIsMissing()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateResultNullWhenOutcodeThirdCharacterIsMissing" finished-at="2020-06-10T20:16:02Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResultNullWhenOutcodeThirdCharacterIsMissing -->
+        <test-method signature="validateSecondElementIsNotInJson()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateSecondElementIsNotInJson" finished-at="2020-06-10T20:16:02Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSecondElementIsNotInJson -->
+        <test-method signature="validateStatusCode200WHenSpacesBeforePostcode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateStatusCode200WHenSpacesBeforePostcode" finished-at="2020-06-10T20:16:02Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode200WHenSpacesBeforePostcode -->
+        <test-method signature="validateStatusCode200WhenSpacesAfterPostCode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateStatusCode200WhenSpacesAfterPostCode" finished-at="2020-06-10T20:16:02Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode200WhenSpacesAfterPostCode -->
+        <test-method signature="validateStatusCode200WhenSpacesBetweenIncodeAndOutcode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateStatusCode200WhenSpacesBetweenIncodeAndOutcode" finished-at="2020-06-10T20:16:02Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode200WhenSpacesBetweenIncodeAndOutcode -->
+        <test-method signature="validateStatusCode404WhenSpaceIsAfterFirstLetter()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateStatusCode404WhenSpaceIsAfterFirstLetter" finished-at="2020-06-10T20:16:02Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode404WhenSpaceIsAfterFirstLetter -->
+        <test-method signature="validateStatusCode404WithUnderspaceBetweenIncodeAndOutcode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:02Z" name="validateStatusCode404WithUnderspaceBetweenIncodeAndOutcode" finished-at="2020-06-10T20:16:03Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode404WithUnderspaceBetweenIncodeAndOutcode -->
+        <test-method signature="validateStatusCodeForStandardPostcode()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:03Z" name="validateStatusCodeForStandardPostcode" finished-at="2020-06-10T20:16:03Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeForStandardPostcode -->
+        <test-method signature="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithCv13GA()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:03Z" name="validateTimeSpentOnFullResponseNotExceedingBasicTimeWithCv13GA" finished-at="2020-06-10T20:16:03Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeSpentOnFullResponseNotExceedingBasicTimeWithCv13GA -->
+        <test-method signature="validateWholeRequestAnswersAtOnceForCV13GA()[pri:0, instance:com.postcodes.tests.Get_Postcodes@5bb51241]" started-at="2020-06-10T20:16:03Z" name="validateWholeRequestAnswersAtOnceForCV13GA" finished-at="2020-06-10T20:16:03Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWholeRequestAnswersAtOnceForCV13GA -->
+      </class> <!-- com.postcodes.tests.Get_Postcodes -->
+      <class name="com.postcodes.tests.Get_Query_Postcodes">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="setUp" finished-at="2020-06-10T20:16:03Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithSpace -->
+        <test-method signature="resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace -->
+        <test-method signature="resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithSpace -->
+        <test-method signature="resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithoutSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithoutSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenLastCharacterFromOutcodeAndTwoFirstFromIncodeWithoutSpace -->
+        <test-method signature="resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithSpace -->
+        <test-method signature="resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace" finished-at="2020-06-10T20:16:03Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultNullWhenTakenTwoLastCharacterFromOutcodeAndFirstFromIncodeWithoutSpace -->
+        <test-method signature="validateAutoCompletedPostcodeWhichStartsFromFourthDigitWhichIsNotSpaceB()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="validateAutoCompletedPostcodeWhichStartsFromFourthDigitWhichIsNotSpaceB" finished-at="2020-06-10T20:16:03Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAutoCompletedPostcodeWhichStartsFromFourthDigitWhichIsNotSpaceB -->
+        <test-method signature="validateAutoCompletedPostcodeWhichStartsFromSecondDigitB()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="validateAutoCompletedPostcodeWhichStartsFromSecondDigitB" finished-at="2020-06-10T20:16:03Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAutoCompletedPostcodeWhichStartsFromSecondDigitB -->
+        <test-method signature="validateAutoCompletedPostcodeWhichStartsFromThirdDigit0()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:03Z" name="validateAutoCompletedPostcodeWhichStartsFromThirdDigit0" finished-at="2020-06-10T20:16:04Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAutoCompletedPostcodeWhichStartsFromThirdDigit0 -->
+        <test-method signature="validateCogIdWithFirstresultWithOutcodeCv1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateCogIdWithFirstresultWithOutcodeCv1" finished-at="2020-06-10T20:16:04Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCogIdWithFirstresultWithOutcodeCv1 -->
+        <test-method signature="validateEleventhElementIsNotInJson()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateEleventhElementIsNotInJson" finished-at="2020-06-10T20:16:04Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEleventhElementIsNotInJson -->
+        <test-method signature="validateErrorOnNoQueryParameters()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateErrorOnNoQueryParameters" finished-at="2020-06-10T20:16:04Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrorOnNoQueryParameters -->
+        <test-method signature="validateGnu()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateGnu" finished-at="2020-06-10T20:16:04Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGnu -->
+        <test-method signature="validateHeaderConnection()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateHeaderConnection" finished-at="2020-06-10T20:16:04Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderConnection -->
+        <test-method signature="validateHeaderContentType()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateHeaderContentType" finished-at="2020-06-10T20:16:04Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderContentType -->
+        <test-method signature="validateHeaderServer()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateHeaderServer" finished-at="2020-06-10T20:16:04Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderServer -->
+        <test-method signature="validateIncodeIsFoundFor1AH()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateIncodeIsFoundFor1AH" finished-at="2020-06-10T20:16:04Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIncodeIsFoundFor1AH -->
+        <test-method signature="validateInwardCode0NY()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateInwardCode0NY" finished-at="2020-06-10T20:16:04Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInwardCode0NY -->
+        <test-method signature="validateInwardCode7GZ()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateInwardCode7GZ" finished-at="2020-06-10T20:16:04Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInwardCode7GZ -->
+        <test-method signature="validateInwardCode7HF()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateInwardCode7HF" finished-at="2020-06-10T20:16:04Z" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInwardCode7HF -->
+        <test-method signature="validateInwardCode8JQ()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:04Z" name="validateInwardCode8JQ" finished-at="2020-06-10T20:16:05Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInwardCode8JQ -->
+        <test-method signature="validateMultipleQueuesAreNotSupported()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validateMultipleQueuesAreNotSupported" finished-at="2020-06-10T20:16:05Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleQueuesAreNotSupported -->
+        <test-method signature="validateNullresultOnWrongUrl()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validateNullresultOnWrongUrl" finished-at="2020-06-10T20:16:05Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNullresultOnWrongUrl -->
+        <test-method signature="validatePostcodeForEighthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForEighthElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForEighthElementForCV1 -->
+        <test-method signature="validatePostcodeForFifthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForFifthElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForFifthElementForCV1 -->
+        <test-method signature="validatePostcodeForFirstElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForFirstElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForFirstElementForCV1 -->
+        <test-method signature="validatePostcodeForFourthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForFourthElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForFourthElementForCV1 -->
+        <test-method signature="validatePostcodeForNinthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForNinthElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForNinthElementForCV1 -->
+        <test-method signature="validatePostcodeForSecondElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForSecondElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForSecondElementForCV1 -->
+        <test-method signature="validatePostcodeForSeventhElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForSeventhElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForSeventhElementForCV1 -->
+        <test-method signature="validatePostcodeForSixthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForSixthElementForCV1" finished-at="2020-06-10T20:16:05Z" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForSixthElementForCV1 -->
+        <test-method signature="validatePostcodeForTenthElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:05Z" name="validatePostcodeForTenthElementForCV1" finished-at="2020-06-10T20:16:06Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForTenthElementForCV1 -->
+        <test-method signature="validatePostcodeForThirdElementForCV1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validatePostcodeForThirdElementForCV1" finished-at="2020-06-10T20:16:06Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcodeForThirdElementForCV1 -->
+        <test-method signature="validatePrefixAsSpaceDoesReturnsValidPostcodeAfterCV13GA()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validatePrefixAsSpaceDoesReturnsValidPostcodeAfterCV13GA" finished-at="2020-06-10T20:16:06Z" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrefixAsSpaceDoesReturnsValidPostcodeAfterCV13GA -->
+        <test-method signature="validatePrefixAsSpaceDoesReturnsValidPostcodeForCV13GA()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validatePrefixAsSpaceDoesReturnsValidPostcodeForCV13GA" finished-at="2020-06-10T20:16:06Z" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePrefixAsSpaceDoesReturnsValidPostcodeForCV13GA -->
+        <test-method signature="validateStatusCodeWithOutcodeCC()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateStatusCodeWithOutcodeCC" finished-at="2020-06-10T20:16:06Z" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeWithOutcodeCC -->
+        <test-method signature="validateStatusCodeWithOutcodeCv1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateStatusCodeWithOutcodeCv1" finished-at="2020-06-10T20:16:06Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeWithOutcodeCv1 -->
+        <test-method signature="validateStatusNullWithUnderspaceBetweenIncodeAndOutcode()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateStatusNullWithUnderspaceBetweenIncodeAndOutcode" finished-at="2020-06-10T20:16:06Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusNullWithUnderspaceBetweenIncodeAndOutcode -->
+        <test-method signature="validateTimeSpentOnFullResponseWithCv1()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateTimeSpentOnFullResponseWithCv1" finished-at="2020-06-10T20:16:06Z" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTimeSpentOnFullResponseWithCv1 -->
+        <test-method signature="validateWholeRequestAnswersAtOnceForCV13GA()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateWholeRequestAnswersAtOnceForCV13GA" finished-at="2020-06-10T20:16:06Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWholeRequestAnswersAtOnceForCV13GA -->
+        <test-method signature="validateresultNullWhenSpaceIsAfterFirstLetter()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateresultNullWhenSpaceIsAfterFirstLetter" finished-at="2020-06-10T20:16:06Z" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateresultNullWhenSpaceIsAfterFirstLetter -->
+        <test-method signature="validateresultWithOutcodeCC()[pri:0, instance:com.postcodes.tests.Get_Query_Postcodes@7479b626]" started-at="2020-06-10T20:16:06Z" name="validateresultWithOutcodeCC" finished-at="2020-06-10T20:16:06Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateresultWithOutcodeCC -->
+      </class> <!-- com.postcodes.tests.Get_Query_Postcodes -->
+    </test> <!-- Testing -->
+  </suite> <!-- Testing -->
+</testng-results>
