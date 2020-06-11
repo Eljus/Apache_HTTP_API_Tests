@@ -27,7 +27,7 @@ API documentation: http://postcodes.io/docs
 
 
 ## To run tests in Docker + Selenoid:
-1 Download and install Docker
+1. Download and install Docker
 2. Open Powershell
 3. Run next command: <cn location>.cn_windows_amd64.exe selenoid -p 8081:8080 start --vnc
 4. Open localhost:8080/#/
