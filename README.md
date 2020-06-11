@@ -23,10 +23,10 @@ API documentation: http://postcodes.io/docs
 3. Download and Install two essential plugins (in Intellij go to File -> Settings -> Plugins):
     1) RoboPOJOGenerator
     2) Lombok
-3. Run project TestNG file: apiTesting.xml
+4. Run project TestNG file: apiTesting.xml
 
 
-To run tests in Docker + Selenoid:
+## To run tests in Docker + Selenoid:
 1 Download and install Docker
 2. Open Powershell
 3. Run next command: <cn location>.cn_windows_amd64.exe selenoid -p 8081:8080 start --vnc
